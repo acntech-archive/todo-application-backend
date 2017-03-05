@@ -25,3 +25,5 @@ The image can be deployed to your local machine or a server in any cloud environ
 Build the image: `docker build -t todo-application-backend .`
 
 Then run it with `docker run -d -p 8080:8080 todo-application-backend`
+
+Or run the image from Docker hub: `docker run -d -p 8080:8080 acntechie/todo-application-backend`
