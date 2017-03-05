@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+
+  todo-backend:
+    build: .
+    image: acntechie/todo-application-backend
+    ports:
+      - 8080:8080
